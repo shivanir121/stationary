@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="stationery shop offers the best selection and prices on all stationery items. Shop for stationery items." />
+    <meta name="keywords"
+        content="stationery, Pencils, Pens, Notebook, Stapler, Tape, Sketches, Glitter, Sparkle pens, Books, covers" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/39bc3f8090.js" crossorigin="anonymous"></script>
+
+    <!-- scrollReveal property -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+        window.sr = ScrollReveal({
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease',
+            mobile: true,
+            reset: true,
+            viewFactor: 0.4,
+        });
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>stationery Shop | Free home delivery</title>
+</head>
+
+<body>
+    <!--==============================navbar section============================-->
+    <section class="showcase" id="home">
+        <header class="hide">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4" id="headerLeft">
+                        <form class="form-inline ml-auto">
+                            <div class="md-form my-0 leftAnimation">
+                                <input class="form-control mr-sm-2 leftAnimation" type="text" placeholder="Search"
+                                    aria-label="Search" style="box-shadow: none;">
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- logo -->
+                    <div class="col-sm-4" id="logo">
+                        <img src="img/ss.jpg" alt="logo">
+                    </div>
+
+                    <!-- contact info -->
+                    <div class="col-sm-4 RightAnimation" id="signIn">
+                        <p class="text-sm letter-spacing">134-443-7425</p>
+                        <a href="#" class="text-sm letter-spacing">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-sm bottomAnimation">
+            <div class="container ">
+
+                <!-- Toggler/collapsibe Button -->
+                <button class=" navbar-toggler bg-white" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon navbarImage"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link text-uppercase">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#trending" class="nav-link text-uppercase">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#explore" class="nav-link text-uppercase">New Collection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link text-uppercase">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link text-uppercase">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container showcase-content leftAnimation">
+            <h1 class="showcaseh1 leftAnimation" style="font-family: heading;">Stationery Shop</h1>
+            <p style=" margin-top: -27px;color: #ef5673;" class="leftAnimation">COLLECTION FOR ALL KIND OF NEED</p>
+            <button class="btn showcaseBtn leftAnimation">View Collection</button>
+        </div>
+    </section>
+
+    <!-- Trending section -->
+
+    <section id="trending">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="contentBox bgSand">
+                    <div class="contentInner">
+                        <h1 style="font-family: trending;letter-spacing: 2px;">Trending this
+                            week</h1>
+                        <button class="btn  trendingButton">See More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9 hide">
+                <!-- end of left part of trending -->
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/21143.jpg" height="266px"
+                                            alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Office Pen </h5>
+                                            <p class="card-text">$320.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/100.jpg" height="266px" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Stapler</h5>
+                                            <p class="card-text">$20.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/722.jpg" height="266px" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Paper Clips</h5>
+                                            <p class="card-text">$300.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/t1.jpg " alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Creative eraser</h5>
+                                            <p class="card-text">$420.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/19.jpg" height="266px" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">office Set</h5>
+                                            <p class="card-text">$110.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/20.jpg" height="266px" alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Color Pencil Set</h5>
+                                            <p class="card-text">$100.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/geometryTools.jpg" height="266px"
+                                            alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Geometry Tools</h5>
+                                            <p class="card-text">$520.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/62043.jpg" height="266px"
+                                            alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Diary</h5>
+                                            <p class="card-text">$100.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/colourPencil.jpg" height="266px"
+                                            alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Colour Pencil</h5>
+                                            <p class="card-text">$30.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/2220.jpg" height="266px"
+                                            alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Scissors</h5>
+                                            <p class="card-text">$50.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/calculator.jpg" height="266px"
+                                            alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Calculator</h5>
+                                            <p class="card-text">$30.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <div class="card cardCarousel trendingCardCarousel" style="width: 18rem;">
+                                        <img class="card-img-top" src="img/pin.jpg " alt="Card image cap">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Board Pin</h5>
+                                            <p class="card-text">$10.0</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <i class="fas fa-chevron-left fa-2x" style="margin-left: 1720px; color: #348496;"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <i class="fas fa-chevron-right fa-2x" style="margin-right: 208px;; color: #348496;"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <!-- end of right part of trending -->
+            </div>
+        </div>
+    </section>
+    <!--end of trending section-->
+    <!-- explore field  -->
+    <section id="explore" class="text-center bottomAnimation">
+        <div class="container">
+            <div class="exploreInner bottomAnimation">
+                <h1 style="font-family: heading;">Stationery Shop<br>
+                    Collection</h1>
+                <p>
+                    COLLECTION FOR ALL KIND OF <br> NEED</p>
+                <button class="btn exploreBtn bottomAnimation">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <i class="fas fa-shipping-fast fa-3x icon leftAnimation"></i>
+                    <h3 class="featureh3 leftAnimation">Free Shipping</h3>
+                    <p class="leftAnimation">rerum hic omnis</p>
+                </div>
+
+                <div class="col-sm-3">
+                    <i class="fas fa-certificate fa-3x leftAnimation"></i>
+                    <h3 class="featureh3 leftAnimation">Independently Certified</h3>
+                    <p class="leftAnimation">Omnis rerum et eum dignissimos repudiandae officiis ut rerum.</p>
+                </div>
+                <div class="col-sm-3">
+                    <i class="far fa-gem fa-3x icon RightAnimation"></i>
+                    <h3 class="featureh3 RightAnimation">No Delivery Charges</h3>
+                    <p class="RightAnimation">Tempore ullam accusamus enim quam saepe inventore numquam repellendus a..
+                    </p>
+                </div>
+
+                <div class="col-sm-3">
+                    <i class="fas fa-undo-alt fa-3x RightAnimation"></i>
+                    <h3 class="featureh3 RightAnimation">10 Day Returns</h3>
+                    <p class="RightAnimation">Nihil porro ullam at omnis omnis enim consequatur.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2 class="abouth1 display-3 leftAnimation">
+                        About Us
+                    </h2>
+                    <div class="card cardAbout leftAnimation">
+                        <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+                        <div class="card-body cardAboutBody">
+                            <h2 class="card-title abouth3">
+                                Lorem ipsum dolor sit?
+                            </h2>
+                            <p class="card-text aboutCardText">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. At vitae beatae aliquid quae
+                                molestias quibusdam harum, natus asperiores nihil dolore voluptate autem quis, aut,
+                                inventore animi neque quos totam suscipit!
+                            </p>
+                            <button class="btn  trendingButton">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card cardAbout2 RightAnimation">
+                        <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+                        <div class="card-body cardAboutBody">
+                            <h2 class="card-title abouth3">
+                                Lorem, ipsum dolor.
+                            </h2>
+                            <p class="card-text aboutCardText">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eos quo dolorum,
+                                placeat minus saepe ratione recusandae harum inventore et magni voluptas error ex,
+                                temporibus pariatur molestias vero nisi esse!
+                            </p>
+                            <button class="btn  trendingButton">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===================clientSlider Section=================== -->
+    <!-- =============================================================================================== -->
+    <section id="clientSlider" class="hide">
+        <div class="container">
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/forbeslogo.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo2.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo4.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo5.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo6.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo4.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo2.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <div class="card cardCarousel clientSliderCarousel" style="width: 18rem;">
+                                    <img class="card-img-top clientSliderImg" src="img/logo4.png" width="100%"
+                                        height="266px" alt="Card image cap">
+                                    <div class="card-body text-center">
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim veniam,
+                                            quis nostrud exercitation ullamco </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <i class="fas fa-chevron-left fa-2x" style="margin-right: 259px; color: #348496;"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <i class="fas fa-chevron-right fa-2x" style="margin-left: 259px; color: #348496;"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================================end of clientSlider Section================================================ -->
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 leftAnimation">
+                    <div>
+                        <h2 class="galleryHeading">Love.<br>Shared.</h2>
+                    </div>
+                    <div class="follow-button">
+                        <a href="https://www.instagram.com/hapyzone" class="action primary text-uppercase"
+                            target="_blank">Follow
+                            @hapyzone <i class="fab fa-instagram"></i></a>
+                    </div>
+                    <img src="img/preview.jpg" alt="work" class="galleryFirstCol">
+                </div>
+                <div class="col-sm-5 bottomAnimation">
+                    <img src="img/notebook.jpg" alt="gallerySecCol" class="">
+                    </br></br>
+                    <img src="img/computer.jpg" alt="" class="gallerySecoCol ">
+                </div>
+                <div class="col-sm-3 RightAnimation">
+                    <img src="img/cup.jpg" alt="" class="galleryThirdCol">
+                    </br></br>
+                    <img src="img/1.jpg" alt="" class="gallerySecoCol">
+                    </br></br>
+                    <img src="img/2.jpg" alt="" class="gallerySecoCol">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+
+    <footer class="bottomAnimation">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-sm-1"> -->
+                <!-- <h1 class="trend text-large text-center" style=" font-size: 7rem;">SS</h1> -->
+
+                <!-- </div> -->
+                <div class="col-sm-1 bottomAnimation hide">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li> Neque</li>
+                        <li> Earum</li>
+                        <li> Vel</li>
+                        <li> Enim</li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+
+                <div class="col-sm-2 bottomAnimation hide">
+                    <h3 class="trend">About</h3>
+                    <ul>
+                        <li> Our Story </li>
+                        <li> Blog </li>
+                        <li> Affliate Program</li>
+                        <li> Reviews </li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+
+                <div class="col-sm-2 bottomAnimation hide">
+                    <h3 class="trend">Help </h3>
+                    <ul>
+                        <li> FAQs </li>
+                        <li> Track Your order </li>
+                        <li> Return </li>
+                        <li> Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-sm-1"></div>
+
+                <div class="col-sm-4 bottomAnimation">
+                    <h3 class="trend">Sign up to our newsletter</h3>
+                    <input type="email" name="email" id="Mail" placeholder="Your Email Address" class=" trendingButton">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

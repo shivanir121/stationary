@@ -1,0 +1,577 @@
+:root
+{
+    --primaryColor: #348496;
+    --primaryColorLight: #3484962e;
+    --secondaryColor: #f77e7e;
+    --hoverNav: #6c757d;
+    --explore:#cce0e4;
+    --gradient: background: linear-gradient(to top right, #225c8e 0%, #50b639 100%);
+    --btn:#54ba3aba;
+}
+
+@font-face
+{
+	font-family: "heading";
+	src:url(font/OraqleScript.otf);
+}
+
+
+*
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+h1
+{
+    /* color: var(--header); */
+    color: var(--secondaryColor);
+}
+
+
+body
+{
+    /* font: 1rem bolder Arial, Helvetica, sans-serif; */
+    line-height: 1.6;
+    background: white;
+    font-family: calibre,sans-serif;
+    font-size: 16px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
+
+img
+{
+    width: 100%;
+}
+/* Navigation styling */
+     /* upper nav */
+
+header {
+    width: 100%;
+    height: 15vh;
+} 
+
+#headerLeft
+{
+    padding: 2rem 0;
+}
+
+header .container .row #headerLeft form input
+{
+    box-shadow: none;
+    border-bottom: 1px #edf2f6 solid;
+}
+
+
+.form-control
+{
+    border: none;
+}
+
+header .container .row #logo img{
+    width: 150px;
+}
+
+#logo
+{
+    padding-left: 10%;
+}
+
+#signIn
+{
+    display: inline-flex;
+    padding: 2rem 0 0 10rem;
+}
+
+header .container .row #signIn p{
+    margin: 0 2rem 0 0;
+}
+
+header .container .row #signIn a:hover
+{
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+/* nav  */
+ /* nav
+{
+    background-color: #3484963d;
+    box-shadow: 8px 12px 20px 1px #e9ecef;
+}  */
+
+
+nav .container ul li a{
+    margin-right: 20px;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 13px;   
+}
+
+nav .container ul li a:hover
+{
+    border-bottom: 2px var(--primaryColor) solid;   
+}
+
+.navbarImage
+{
+    background: url(img/logo1.png)no-repeat center center/cover;
+}
+
+/* showcase */
+
+.showcase
+{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    background: url(img/9.jpg)no-repeat center center/cover;
+}
+
+
+.showcase-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50px,-20px);
+}
+
+.showcaseh1
+{
+    font-size: 7rem;
+    /* font-weight: 600; */
+}
+
+/* trending */
+
+/* left */
+.contentBox
+{
+    margin: 80px 0;
+}
+
+.bgSand
+{
+    position: relative;
+    width: 264px;
+    height: 366px;
+    background: #faf0f0;
+    left: 116px;
+}
+
+
+.contentInner
+{
+    position: relative;
+    top: 50%;
+    left: -9%;
+    transform: translate(-9%, -50%);
+}
+
+
+
+/* Right  */
+
+.trendingCardCarousel
+{
+    border: none;
+    margin: 5rem 4rem;
+}
+
+/* explore */
+
+#explore
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--explore);
+    /* background: url(img/oldpen.png); */
+    background: url(img/3.jpg)no-repeat center center/cover; 
+    background-attachment: fixed;
+}
+
+#explore .container .exploreInner
+{
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    transform: translate(-0%,-40%);
+}
+
+#explore .container .exploreInner h1
+{
+    margin-bottom: 1.5rem;
+}
+
+#explore .container .exploreInner p
+{
+    margin-bottom: 3rem;
+}
+
+#explore .container .exploreInner h1
+{
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+    
+
+
+/* feature */
+
+#feature
+{
+
+}
+
+#feature .container
+{
+
+}
+
+#feature .container .row
+{
+    margin: 80px 0;
+    text-align: center;
+}
+
+
+#feature .container .row h3
+{
+    margin-bottom: 1rem;
+    /* color: var(--primaryColor); */
+}
+
+.featureh3, .abouth1, .abouth3
+{
+    font-family: trending;
+}
+
+.fas,.far
+{
+    color: var(--btn);
+    padding-bottom: 2rem;
+}
+
+.icon
+{
+    color: var(--secondaryColor);
+}
+
+/* about */
+
+#about
+{
+    width: 100%;
+    height: 138vh;
+    background:var(--primaryColorLight);
+}
+
+.abouth1
+{
+    padding: 6rem 0 0 0;
+}
+
+.cardAbout
+{
+    width: 100%;
+    height: auto;
+    padding: 64px;
+}
+
+.cardAbout2
+{
+    margin-top: 7rem;
+    padding: 64px;
+}
+
+.aboutCardText
+{
+    margin-bottom: 2rem;
+}
+
+.cardAboutBody
+{
+    padding: 2rem 0 0 0;
+}
+
+/* clientSlider */
+
+
+.clientSliderImg
+{
+    height: 16vh;
+    margin: 0;
+    padding: 0 3rem 0 3rem;
+}
+
+.clientSliderCarousel
+{
+    border: none;
+    margin: 4rem 0;
+}
+
+.carousel-item .row .col-sm-3 .clientSliderCarousel .card-body>p
+{
+    font-size: 1em;
+    color: #666;
+}
+
+/* gallery/insta */
+#gallery
+{
+    background: var(--primaryColorLight);
+    height: 42vh;
+    padding: 2rem;
+    margin-bottom: 36rem;
+}
+.galleryHeading
+{
+    font-size: 3.3em;
+    font-family: trending;
+    padding-top: 111px;
+    font-weight: 400;
+}
+
+.follow-button
+{
+    margin-bottom: 46px; 
+    margin-top: 36px;
+}
+
+.primary
+{
+    background: var(--primaryColor);
+    color: white;
+    padding: 20px 24px; 
+}
+
+.primary:hover
+{
+    color: white;
+    text-decoration: none;
+    background: #358b9eb8;
+}
+ #gallery .container
+ {
+    margin-bottom: 4rem;
+ }
+
+ /* footer  */
+
+footer
+{
+    width: 100%;
+    height: 34vh;
+    background: #faf0f0;
+    padding: 68px;
+   
+}
+
+/* utility */
+
+.letter-spacing
+{
+    letter-spacing: 1px;
+}
+
+.text-lg
+{
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.text-sm
+{
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+
+.text-xl
+{
+    font-size:20px;
+    margin-bottom: 1rem;
+}
+
+p
+{
+    margin-bottom: 1rem;
+}
+
+.showcaseBtn
+{
+    padding: 1rem 2rem;
+    background-color: var(--btn);
+    color: white;
+    border: 1px #54ba3a solid;
+    box-shadow: 6px 6px 20px -15px grey;
+}
+
+.showcaseBtn:hover, .showcaseBtn:active, .showcaseBtn:visited, .showcaseBtn:focus
+{
+    padding: 1rem 2rem;
+    background-color: var(--btn);
+    color: white;
+    border: 1px #54ba3a solid;
+    box-shadow: 6px 6px 20px -15px grey;
+}
+
+.trendingButton
+{
+    padding: .8rem 2rem;
+    border: 2px #ce7a7a59 solid;
+    color: var(--primaryColor);
+    background-color: transparent;
+}
+
+.trendingButton:hover, .trendingButton:active, .trendingButton:focus, .trendingButton:visited
+{
+    border: 2px var(--secondaryColor) solid;
+    background-color: transparent;
+    color: var(--primaryColor);
+    box-shadow: 6px 6px 20px -15px grey;
+}
+
+.exploreBtn
+{
+    padding: .8rem 2rem;
+    border: 2px var(--btn) solid;
+    color: white;
+    background-color: var(--btn);
+}
+
+.exploreBtn:hover, .exploreBtn:active, .exploreBtn:focus, .exploreBtn:visited
+{
+    border: 2px var(--btn) solid;
+    background-color: transparent;
+    color: var(--btn);
+    box-shadow: 6px 6px 20px -15px grey;
+}
+
+.trend
+{
+    font-family: trending;
+}
+
+
+/* media queries */
+
+@media screen and (max-width:560px)
+{
+    .hide{
+        display:none;
+    }
+}
+
+@media(min-width:525px)
+{
+    .hide-large
+    {
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width:525px)
+{
+
+    .showcase
+    {
+        width: 100%;
+        height: 45vh;
+        background: url(img/9.jpg)no-repeat center center/contain;
+    }
+
+    .showcase-content
+    {
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        right: 20%;
+     }
+
+    .showcaseh1
+    {
+        font-size: 4rem;
+        line-height: 2em;
+    }
+
+    .showcase .showcase-content p
+    {
+        font-size: 1rem;
+        color: black;
+    }
+
+    .showcase .showcase-content button
+    {
+        padding: .5rem 1rem;
+        background-color: var(--btn);
+        color: white;
+        border: 1px #54ba3a solid;
+        box-shadow: 6px 6px 20px -15px grey;
+    }
+
+
+    /* explore */
+
+    #explore
+    {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        background-color: var(--explore);
+        /* background: url(img/oldpen.png); */
+        background: url(img/3.jpg)no-repeat center center/cover; 
+        background-attachment: fixed;
+    }
+
+    #explore .container .exploreInner
+    {
+        position: absolute;
+        left: 60px;
+        height: 50vh;
+        padding-top: 10rem;
+    }
+
+    #about 
+    {
+        width: 100%;
+        height: auto;
+        background: var(--primaryColorLight);
+    }
+    /* gallery/insta */
+    #gallery
+    {
+        height: auto; 
+        margin-bottom: 2rem;   
+    }
+
+    footer
+    {
+        width: 100%;
+        height: auto;
+        background: #faf0f0;
+        padding: 68px;
+    
+    }
+
+    
+
+
+
+
+
+
+}
